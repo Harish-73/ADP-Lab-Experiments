@@ -1,0 +1,127 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    /*background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-yellow-minimalistic-geometric-ppt-background-template-template-image_54359.jpg");
+    background-color: rgb(243, 184, 132);*/
+    background-image: url("tree.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+.hb {
+    position: absolute;
+    color: rgb(0, 224, 253);
+    display: inline-block;
+    padding-left: 105px;
+    padding-top: 160px;
+    font-size: xx-large;
+    animation: hi 3s infinite both;
+}
+@keyframes hi {
+    from {left:0px} to {left:110px}
+}
+.d1 {
+    position: absolute;
+    padding: 20px 70px 10px 650px;
+}
+.mo {
+    position: relative;
+    font-size: 30px ;
+    padding: 16px 0px 0px 450px;
+    color: goldenrod;
+}  
+img {
+    position: absolute;
+    box-shadow: 0px 0px 20px rgb(255, 184, 6);
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.i1 {
+    background-color: /*rgb(243, 184, 132)*/transparent;
+    display: inline-block;
+    overflow: hidden;
+}
+.cass{
+
+    display: inline-block;
+    padding: 0px 0px 0px 300px;
+    overflow: auto;
+}
+table,td,tr {
+    font-size: 30px;
+}
+td {
+    padding: 5px 120px 0px 100px;
+}
+.body {
+    background-image: url("https://seoimgak.mmtcdn.com/blog/sites/default/files/styles/mobile_cover_images/public/featured-image-gradient.jpg?itok=WegxvLVW");
+    background-repeat: no-repeat;
+    ackground-image: url("tree.jfif");
+    background-size: cover;
+    color: white;
+}  
+.lo {
+    font-family: sans-serif;
+    width: 250px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.lo h1 {
+    float: left;
+    border-bottom: 5px solid rgb(248, 81, 20);
+    margin-bottom: 25px;
+    padding: 8px 0px;
+    color: rgb(255, 232, 189);
+}
+input:hover {
+    box-shadow: 0px 0px 20px black;
+}
+.text {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    border-bottom: 1px solid rgb(185, 94, 2);
+}
+.text input {
+    border: none;
+    outline: none;
+    background: none;
+    color: whitesmoke;
+    font-size: 16px;
+    float: left;
+
+}
+.text i{
+    width: 25px;
+    float: left;
+    text-align: center;
+}
+.button input {
+    color: rgb(255, 232, 189);
+    border: 2px solid orangered;
+    width: 100%;
+    padding: 5px;
+    background: none;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.head {
+    margin-left: 400px;
+    margin-right: 450px;
+    margin-top: 10px;
+    font-size: 310%;
+    border-bottom: 3px solid orangered;
+    color: rgb(255, 232, 189);
+}
+.aim {
+        position: absolute;
+        padding-top: 0px;
+        padding-left: 50px;
+        font-size: large;
+}
+
+  

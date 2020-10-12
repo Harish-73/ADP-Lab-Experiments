@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="Teststyle.css">
+        <link rel="shortcut icon" href="icon.png">
+    </head>
+    <body>
+    <div>
+        <div class="i1">
+            <div class="mo"><h1>Registration Form</h1></div>
+            <img src="D:\HARISH\test\icon.png" ><p class="hb">Hi...! </p>
+            <div class="cass">
+                <form method="POST" action="" enctype="multipart/form-data" >
+                <table style="text-align: left;">
+                    <tr style="text-align: left;">
+                        <td>Name</td>
+                        <td><input type="text" name="name" placeholder="Name"></td>
+                    </tr>
+                   <tr style="text-align: left;">
+                       <td>Roll.no</td>
+                       <td><input type="text" name="roll.no" placeholder="Roll.no">
+                       </td>
+                    <tr style="text-align: left;">    
+                        <td>Email</td>
+                        <td><input type="email" name="email" placeholder="Email">
+                        </td>
+                    </tr>
+                    <tr style="text-align: left;">    
+                     <td>Phone Number</td>
+                     <td><input type="tel" name="ph.no" placeholder="+91 ">
+                     </td>
+                     </tr>
+                     <tr style="text-align: left;">   
+                        <td>Department</td>
+                        <td><input type="text" placeholder="Department" list="dep">
+                            <datalist id="dep">
+                                <option value="MECH">
+                                <option value="CIVIL">
+                                <option value="CSE">
+                                <option value="ECE">
+                                <option value="EEE">
+                            </datalist>
+                        </td>
+                    </tr> 
+                   <tr style="text-align: left;">   
+                    <td>Year</td>
+                    <td>
+                        <select name="year">
+                        <option value="">select year</option>
+                        <option value="I">I</option>
+                        <option value="II">II</option>
+                        <option value="III">III</option>
+                        <option value="IV">IV</option>
+                    </select>
+                    </td></tr>
+                    <tr style="text-align: left;">    
+                        <td>Section</td>
+                        <td  style="font-size: 70%">
+                            <input name="Section" type="radio">A
+                            <input name="Section" type="radio">B
+                            <input name="Section" type="radio">C
+                        </td>
+                        </tr>
+                        <tr style="text-align: left;">   
+                            <td>District</td>
+                            <td><input type="text" name="District" placeholder="District">
+                            </td>
+                        </tr>    
+                    <tr style="text-align: left;">   
+                        <td>Any comments</td>
+                        <td><textarea name="comments" cols="25" rows="3" placeholder="comments"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <div class="d1">
+                <button type="reset" name="reset">Reset</button>
+                <button type="submit" value="send" name="submit">Submit</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </body>  
+</html>

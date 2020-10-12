@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Map </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                background-color: aliceblue;
+            }
+            .t1 {
+                position: absolute;
+                font-size: 300%;
+                border-bottom: 3px solid black;
+                margin-left: 22%;
+            }
+            .t3 {
+                position: absolute;
+                padding-top: 90px;
+                font-size: 250%;
+                border-bottom: 3px solid black;
+                margin-left: 68%;
+            }
+            .t2 {
+                position: absolute;
+                border-bottom: 3px solid black;
+                padding-top: 10%;
+                margin-left: 10%;
+                font-size: 200%;
+                }
+            .aim {
+                position: absolute;
+                padding-top: 15%;
+                padding-left: 9%;
+                font-size: 125%;
+            }
+            .map {
+                position: absolute;
+                padding-left: 60%;
+                padding-top:190px;   
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="t1">LABORATORY EXPERIMENTS-SET 1</h1>
+        <h2 class="t2">AIM</h2>
+        <p class="aim">To create a web page using HTML, to embed an image map and to fix the<br> hot spots and show all related informations when the hot spots are clicked.</p>
+        <h2 class="t3">Germany</h2>
+        <div class="map">
+        <img src=" D:\HARISH\test\germany.jpg" usemap="#image-map" >
+    <map name="image-map">
+        <area target="" alt="Baden-Wurttemberg" title="Baden-Wurttemberg" href="https://en.wikipedia.org/wiki/Baden-W%C3%BCrttemberg" coords="116,367,78,428,72,488,103,483,154,486,175,472,179,424,183,395,163,355" shape="poly">
+        <area target="" alt="Bavaria" title="Bavaria" href="https://en.wikipedia.org/wiki/Bavaria" coords="141,337,173,356,193,391,191,435,184,472,233,485,289,473,312,410,308,384,274,348,259,315,235,306,175,308" shape="poly">
+        <area target="" alt="Berlin" title="Berlin" href="https://en.wikipedia.org/wiki/Berlin" coords="307,162,8" shape="circle">
+        <area target="" alt="Saxony" title="Saxony" href="https://en.wikipedia.org/wiki/Saxony" coords="271,232,265,253,279,262,281,274,273,277,259,298,268,306,345,265,367,251,360,225,319,236" shape="poly">
+        <area target="" alt="Brandenburg" title="Brandenburg" href="https://en.wikipedia.org/wiki/Brandenburg" coords="235,124,255,117,287,119,316,100,339,115,334,133,339,142,352,154,328,172,305,148,292,157,290,166,295,174,302,174,313,176,351,166,354,202,357,215,303,226,268,190" shape="poly">
+    </map></div>
+  </body>
+</html>
