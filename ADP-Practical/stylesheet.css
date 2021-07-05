@@ -1,0 +1,91 @@
+body {
+    background-image: url("tree.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head {
+    margin-left: 500px;
+    margin-right: 525px;
+    margin-top: 10px;
+    font-size: 330%;
+    border-bottom: 3px solid orangered;
+    color: rgb(255, 232, 189);
+}
+.head2 {
+    margin-top: 100px;
+    margin-left: 580px;
+    margin-right: 560px;
+    font-size: 40px;
+    color: honeydew;
+    animation: no 1s infinite both;
+}
+@keyframes no {
+    0% {background-color: red;left: 0px;}
+    25% {background-color:pink;left: 0px;}
+    50% {background-color:blue;left: 200px;}
+    75% {background-color:green;left: 0px;}
+    100% {background-color:yellow;left: 0px;}
+}
+.ani1 {
+    position: absolute;
+    border: 5px solid white;
+    box-shadow: 0px 0px 50px rgb(247, 246, 246);
+    width: auto;
+    display: inline-block;
+    background: none;
+    outline: none;
+    animation: hi 1s infinite both;
+}
+@keyframes hi {
+from {bottom: 50px;} to {bottom:500px;}
+}
+.ani3 {
+    position: absolute;
+    border: 5px solid white;
+    box-shadow: 0px 0px 50px white ;
+    width: auto;
+    display: inline-block;
+    background: none;
+    outline: none;
+    animation: hi2 1s infinite both;
+}
+@keyframes hi2 {
+from {top: 50px;} to {top:500px;}
+}
+.img1 {
+    color: rgb(255, 232, 189);
+    border: 2px solid;
+    width: auto;
+    display: inline-block;
+    background: none;
+    outline: none;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.img2 {
+    color: rgb(255, 232, 189);
+    border: 2px solid goldenrod;
+    box-shadow: 0px 0px 30px rgb(255, 184, 6);
+    width: auto;
+    display: inline-block;
+    background: none;
+    outline: none;
+    margin-top: 100px;
+    margin-left: 535px;
+    border-radius: 50%;
+} 
+.img2 img {
+    border-radius: 50%;
+}
+.img3 {
+    color: rgb(255, 232, 189);
+    border: 2px solid;
+    width: auto;
+    display: inline-block;
+    background: none;
+    outline: none;
+    margin-top: 50px;
+    margin-left: 1100px;
+    border-radius: 5px;
+}
